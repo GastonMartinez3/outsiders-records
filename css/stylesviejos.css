@@ -6,7 +6,7 @@
 
 html {
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #212324;
+    background-color: #212324;    
     
 }
 
@@ -14,7 +14,7 @@ html {
     border-radius: 10%;
 }
 
-a, h2, h4, p, h1, table {
+a, h2, h4, p, h1, table, li, td {
     color: rgb(255, 255, 255)    
 }
 

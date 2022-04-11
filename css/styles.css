@@ -33,8 +33,39 @@ html {
     
 }
 
+.aboutus {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 
+    auto auto
+    auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    
+}
 
-a, h2, h4, p, h1 {
+.releases {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 
+    auto auto auto
+    auto auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    
+}
+
+/* .podcast {
+    display: flex;
+    flex-direction: column;
+} */
+
+.historia {
+    font-size: large;
+}
+
+
+a, h2, h4, p, h1, li, td {
     color: rgb(255, 255, 255)    
 }
 
@@ -78,4 +109,9 @@ hr {
 
 .fotosartistas {
     border-radius: 10%;
+}
+
+ul {
+    list-style-position: inside;
+    color: white;
 }
