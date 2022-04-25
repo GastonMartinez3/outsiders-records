@@ -20,7 +20,7 @@ html {
 
 .artistas {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 400px 400px;
     grid-template-rows: 
     auto auto
     auto auto
@@ -228,4 +228,34 @@ ul {
         
     } 
     
+    .artistas {
+        display: grid;
+        grid-template-areas: 
+        "foto-gastom"
+        "nombre-gastom"
+        "play-gastom"
+        "foto-mrfowks"
+        "nombre-mrfowks"
+        "play-mrfowks";
+        grid-template-columns: 50% 50%;
+    }
+
+    #foto-gastom {
+        grid-area: foto-gastom;
+    }
+    #foto-mrfowks {
+        grid-area: foto-mrfowks;
+    }
+    #nombre-gastom {
+        grid-area: nombre-gastom;
+    }
+    #nombre-mrfowks {
+        grid-area: nombre-mrfowks;
+    }
+    #play-gastom {
+        grid-area: play-gastom;
+    }
+    #play-mrfowks {
+        grid-area: play-mrfowks;
+    }
 }
